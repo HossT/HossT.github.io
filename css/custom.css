@@ -1,0 +1,34 @@
+#bg_video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.text-color-gray {
+    color: #b2bccf !important;
+}
+
+.brook-icon-boxes-area .icon ,
+.brook-icon-boxes-area .icon img {
+    height: 80px;
+}
+
+.brook-icon-boxes-area .icon i {
+    color: #000 !important;
+}
+
+.bk-gradation .item-grid .content {
+    padding: 23px 23px 44px!important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+
+.bk-gradation .item-grid .content::before {
+    display: none !important;
+}
