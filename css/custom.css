@@ -32,3 +32,9 @@
 .bk-gradation .item-grid .content::before {
     display: none !important;
 }
+
+.about_batates {
+    margin-left: auto;
+    margin-right: auto;
+    width:50em
+  }
