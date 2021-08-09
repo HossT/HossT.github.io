@@ -8,8 +8,45 @@
     z-index: -100;
 }
 
+/* _________________Text Colors_______________ */
+
+
 .text-color-gray {
     color: #b2bccf !important;
+}
+.text-color-black {
+    color: #412d2d5b !important;
+}
+.text-color-white {
+    color: #ffffff !important;
+}
+
+/* _____________Gradient background Color_____________ */
+.custom_bg_color-1{
+    background:linear-gradient( #E8F6EF,  #B8DFD8); !important;
+}
+
+.custom_bg_color-2{
+    background:linear-gradient( #B8DFD8,  #4C4C6D); !important;
+}
+
+.custom_bg_color-3{
+    background:linear-gradient( #4C4C6D,  #4C4C6D); !important;
+}
+
+.custom_bg_color-5{
+    background:linear-gradient( #4C4C6D,  #222); !important;
+}
+
+
+/* basic Background color */
+
+.custom_bg_color-4{
+    background: #4C4C6D; !important;
+}
+
+.custom_bg_color-6{
+    background: #FFE194; !important;
 }
 
 .brook-icon-boxes-area .icon ,
@@ -38,3 +75,32 @@
     margin-right: auto;
     width:50em
   }
+
+.transparent_box{
+    opacity: 0;
+  }
+
+.my_hover{
+
+
+    
+}
+
+myhover:hover {
+    background-color: yellow;
+  }
+
+  a.ex2:hover, a.ex2:active {font-size: 250% ;}
+  a.ex3:hover, a.ex3:active {text-decoration: underline;}
+  a.highlight:hover {
+    color: #ff0000;
+  } 
+  div.divtest:hover {
+    background-color: rgb(179, 13, 13);
+  }
+
+/* Solid border */
+.seprate_solid {
+    border-top: 20px solid #E8F6EF;
+  }
+  
